@@ -10,6 +10,30 @@
         .keyword-card { transition: all 0.3s ease; border-left: 3px solid transparent; padding-left: 0; }
         .keyword-card:hover { border-left: 3px solid #5B3FC0; padding-left: 15px; background: rgba(91, 63, 192, 0.03); }
     </style>
+
+    <style>
+        .nav-btn {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 9999;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: 0.12em;
+            color: #BBB;
+            background: rgba(255,255,255,0.85);
+            border: 1px solid #E8E5DF;
+            padding: 10px 14px;
+            border-radius: 8px;
+            backdrop-filter: blur(4px);
+            transition: 0.2s ease;
+        }
+        .nav-btn:hover { color: #D63F6A; border-color: #D63F6A; background: #fff; }
+        .nav-prev { left: 16px; }
+        .nav-next { right: 16px; }
+    </style>
 </head>
 <body>
     <div style="width:1280px; height:720px; display:flex; background:#F7F4EE; overflow:hidden; position: relative; border: 1px solid #E0DDD6;">
@@ -92,5 +116,14 @@
             </div>
         </div>
     </div>
+
+    <a href="index.html" class="nav-btn nav-prev">← INDEX</a>
+    <a href="portfolio_page2.html" class="nav-btn nav-next">02 →</a>
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') window.location.href = 'index.html';
+            if (e.key === 'ArrowRight') window.location.href = 'portfolio_page2.html';
+        });
+    </script>
 </body>
 </html>

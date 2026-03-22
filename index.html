@@ -29,6 +29,29 @@
 
         .footer { margin-top:48px; font-size:11px; color:#CCC; font-weight:600; letter-spacing:0.1em; }
     </style>
+
+    <style>
+        .nav-btn {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 9999;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: 0.12em;
+            color: #BBB;
+            background: rgba(255,255,255,0.85);
+            border: 1px solid #E8E5DF;
+            padding: 10px 14px;
+            border-radius: 8px;
+            backdrop-filter: blur(4px);
+            transition: 0.2s ease;
+        }
+        .nav-btn:hover { color: #D63F6A; border-color: #D63F6A; background: #fff; }
+        .nav-next { right: 16px; }
+    </style>
 </head>
 <body>
     <div class="header">
@@ -107,5 +130,12 @@
     </div>
 
     <p class="footer">CHOI WON KYUNG © 2026</p>
+
+    <a href="portfolio_page1.html" class="nav-btn nav-next">01 →</a>
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight') window.location.href = 'portfolio_page1.html';
+        });
+    </script>
 </body>
 </html>
