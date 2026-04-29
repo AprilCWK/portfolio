@@ -195,7 +195,13 @@
     </div><!-- /메인 -->
 </div>
 
-<a href="portfolio_page3.html" class="nav-btn nav-prev">← 03</a>
-<a href="portfolio_page5.html" class="nav-btn nav-next">05 →</a>
+    <a href="portfolio_page3.html" class="nav-btn nav-prev">← 03</a>
+    <a href="portfolio_page5.html" class="nav-btn nav-next">05 →</a>
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') window.location.href = 'portfolio_page3.html';
+            if (e.key === 'ArrowRight') window.location.href = 'portfolio_page5.html';
+        });
+    </script>
 </body>
 </html>
