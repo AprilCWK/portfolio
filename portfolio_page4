@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { width:1280px; height:720px; overflow:hidden; font-family:"Noto Sans KR", sans-serif; background:#FFF; color:#1E1E1E; }
+    </style>
+    <style>
+        .nav-btn {
+            position:fixed; top:50%; transform:translateY(-50%); z-index:9999;
+            text-decoration:none; font-family:'Noto Sans KR', sans-serif;
+            font-size:11px; font-weight:900; letter-spacing:0.12em;
+            color:#BBB; background:rgba(255,255,255,0.85); border:1px solid #E8E5DF;
+            padding:10px 14px; border-radius:8px; backdrop-filter:blur(4px); transition:0.2s ease;
+        }
+        .nav-btn:hover { color:#D63F6A; border-color:#D63F6A; background:#fff; }
+        .nav-prev { left:16px; }
+        .nav-next { right:16px; }
+    </style>
+</head>
+<body>
+<div style="width:1280px; height:720px; display:flex; border:1px solid #EEE; overflow:hidden;">
+
+    <!-- 좌측 사이드바 -->
+    <div style="width:70px; height:720px; background:#1E1E1E; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; padding-bottom:60px; gap:16px; flex-shrink:0;">
+        <div style="width:10px; height:10px; background:#D63F6A; border-radius:50%;"></div>
+        <div style="width:10px; height:10px; background:#5B3FC0; border-radius:50%;"></div>
+        <div style="width:2px; height:40px; background:rgba(255,255,255,0.2);"></div>
+    </div>
+
+    <!-- 메인 -->
+    <div style="flex:1; display:flex; flex-direction:column; overflow:hidden;">
+
+        <!-- 상단 헤더 -->
+        <div style="padding:28px 65px 0; flex-shrink:0;">
+            <p style="font-size:12px; font-weight:800; color:#D63F6A; margin-bottom:6px; letter-spacing:0.15em;">EXPERIENCE 04: Brand Collaboration</p>
+            <div style="display:flex; align-items:baseline; gap:20px;">
+                <h1 style="font-size:26px; font-weight:800; letter-spacing:-0.03em;">브랜드 콜라보레이션 콘텐츠 기획</h1>
+                <p style="font-size:12px; color:#BBB; font-weight:600; white-space:nowrap;">2025~2026 | 푸망 제휴 콘텐츠</p>
+            </div>
+        </div>
+
+        <!-- 본문: 3컬럼 -->
+        <div style="flex:1; display:flex; padding:16px 65px 0; gap:0; min-height:0;">
+
+            <!-- ══════════════════════════════
+                 CASE 01  —  핑크  #D63F6A
+            ══════════════════════════════ -->
+            <div style="flex:1; display:flex; flex-direction:column; gap:11px; padding-right:26px; border-right:1px solid #EEE;">
+
+                <div>
+                    <p style="font-size:10px; font-weight:800; color:#D63F6A; letter-spacing:0.15em; margin-bottom:4px;">CASE 01 &nbsp;|&nbsp; 2025.09</p>
+                    <p style="font-size:14.5px; font-weight:800; letter-spacing:-0.02em; line-height:1.25; color:#1E1E1E;">NMIXX × 내 마음 속 페르소나</p>
+                    <p style="font-size:11px; font-weight:500; color:#888; margin-top:2px; line-height:1.4;">JYP 걸그룹 엔믹스 컴백 앨범 <em style="font-style:normal; color:#5B3FC0; font-weight:700;">Blue Valentine</em> 프로모션</p>
+                </div>
+
+                <div style="display:flex; flex-direction:column; gap:7px;">
+                    <div style="padding-left:10px; border-left:2px solid #D63F6A;">
+                        <p style="font-size:10px; font-weight:800; color:#D63F6A; letter-spacing:0.08em; margin-bottom:2px;">Narrative Design</p>
+                        <p style="font-size:11.5px; line-height:1.65; color:#444;">앨범 컨셉 및 엔믹스 세계관 스토리를 테스트 서사에 직접 적용</p>
+                    </div>
+                    <div style="padding-left:10px; border-left:2px solid #D63F6A;">
+                        <p style="font-size:10px; font-weight:800; color:#D63F6A; letter-spacing:0.08em; margin-bottom:2px;">Organic Spread</p>
+                        <p style="font-size:11.5px; line-height:1.65; color:#444;">테스트 참여 → 결과 공유 → 확산으로 이어지는 자발적 바이럴 구조 설계, 결과 페이지 pre-save 광고 배너 삽입으로 전환까지 연결</p>
+                    </div>
+                    <div style="padding-left:10px; border-left:2px solid #D63F6A;">
+                        <p style="font-size:10px; font-weight:800; color:#D63F6A; letter-spacing:0.08em; margin-bottom:2px;">Artist Engagement</p>
+                        <p style="font-size:11.5px; line-height:1.65; color:#444;">엔믹스 멤버가 팬 유료 소통 채널 버블에서 직접 테스트 참여 및 언급</p>
+                    </div>
+                </div>
+
+                <!-- RESULTS — 핑크 톤 배경 -->
+                <div style="background:#FDF0F4; border-radius:10px; border:1px solid #F2D5DE; padding:11px 14px; margin-top:auto; flex-shrink:0; height:82px;">
+                    <p style="font-size:9px; font-weight:800; color:#D63F6A; letter-spacing:0.15em; margin-bottom:9px;">RESULTS</p>
+                    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; height:36px;">
+                        <div style="padding-right:10px; border-right:1px solid #EAC8D4; display:flex; flex-direction:column; justify-content:center;">
+                            <p style="font-size:9px; color:#BF7080; font-weight:600; margin-bottom:2px;">플레이</p>
+                            <p style="font-size:16px; font-weight:900; color:#1E1E1E; letter-spacing:-0.03em; line-height:1;">13.3<span style="font-size:10px; color:#D63F6A; margin-left:1px;">만</span></p>
+                        </div>
+                        <div style="padding:0 10px; border-right:1px solid #EAC8D4; display:flex; flex-direction:column; justify-content:center;">
+                            <p style="font-size:9px; color:#BF7080; font-weight:600; margin-bottom:2px;">광고 클릭률</p>
+                            <p style="font-size:16px; font-weight:900; color:#1E1E1E; letter-spacing:-0.03em; line-height:1;">10.4<span style="font-size:10px; color:#D63F6A; margin-left:1px;">%</span></p>
+                        </div>
+                        <div style="padding-left:10px; display:flex; flex-direction:column; justify-content:center;">
+                            <p style="font-size:9px; color:#BF7080; font-weight:600; margin-bottom:2px;">공식 트위터 Views</p>
+                            <p style="font-size:16px; font-weight:900; color:#1E1E1E; letter-spacing:-0.03em; line-height:1;">40<span style="font-size:10px; color:#D63F6A; margin-left:1px;">만</span></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ══════════════════════════════
+                 CASE 02  —  퍼플  #5B3FC0
+            ══════════════════════════════ -->
+            <div style="flex:1; display:flex; flex-direction:column; gap:11px; padding:0 26px; border-right:1px solid #EEE;">
+
+                <div>
+                    <p style="font-size:10px; font-weight:800; color:#5B3FC0; letter-spacing:0.15em; margin-bottom:4px;">CASE 02 &nbsp;|&nbsp; 2025.11</p>
+                    <p style="font-size:14.5px; font-weight:800; letter-spacing:-0.02em; line-height:1.25; color:#1E1E1E;">라이프집 × 나만의 햄스터 테스트</p>
+                    <p style="font-size:11px; font-weight:500; color:#888; margin-top:2px; line-height:1.4;">커뮤니티 앱 라이프집 홍보 콘텐츠</p>
+                </div>
+
+                <div style="display:flex; flex-direction:column; gap:7px;">
+                    <div style="padding-left:10px; border-left:2px solid #5B3FC0;">
+                        <p style="font-size:10px; font-weight:800; color:#5B3FC0; letter-spacing:0.08em; margin-bottom:2px;">Creator Casting</p>
+                        <p style="font-size:11.5px; line-height:1.65; color:#444;">트렌딩 일러스트 작가 <span style="font-weight:700; color:#1E1E1E;">'오얼모얼'</span> 협업을 직접 제안, 작가 팔로워를 오가닉 유입 채널로 전환</p>
+                    </div>
+                    <div style="padding-left:10px; border-left:2px solid #5B3FC0;">
+                        <p style="font-size:10px; font-weight:800; color:#5B3FC0; letter-spacing:0.08em; margin-bottom:2px;">Viral Redesign</p>
+                        <p style="font-size:11.5px; line-height:1.65; color:#444;">경쟁사 대비 저조했던 기존 캠페인 구조를 전면 재설계, 플레이 수 역전 달성</p>
+                    </div>
+                </div>
+
+                <!-- RESULTS — 퍼플 톤 배경 -->
+                <div style="background:#F0EDF9; border-radius:10px; border:1px solid #D4CAF0; padding:11px 14px; margin-top:auto; flex-shrink:0; height:82px;">
+                    <p style="font-size:9px; font-weight:800; color:#5B3FC0; letter-spacing:0.15em; margin-bottom:9px;">RESULTS</p>
+                    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; height:36px;">
+                        <div style="padding-right:10px; border-right:1px solid #C8BDE8; display:flex; flex-direction:column; justify-content:center;">
+                            <p style="font-size:9px; color:#8070B8; font-weight:600; margin-bottom:2px;">플레이</p>
+                            <p style="font-size:16px; font-weight:900; color:#1E1E1E; letter-spacing:-0.03em; line-height:1;">20.3<span style="font-size:10px; color:#5B3FC0; margin-left:1px;">만</span></p>
+                        </div>
+                        <div style="padding:0 10px; border-right:1px solid #C8BDE8; display:flex; flex-direction:column; justify-content:center;">
+                            <p style="font-size:9px; color:#8070B8; font-weight:600; margin-bottom:2px;">작가 트윗 노출</p>
+                            <p style="font-size:16px; font-weight:900; color:#1E1E1E; letter-spacing:-0.03em; line-height:1;">147<span style="font-size:10px; color:#5B3FC0; margin-left:1px;">만+</span></p>
+                        </div>
+                        <div style="padding-left:10px; display:flex; flex-direction:column; justify-content:center;">
+                            <p style="font-size:9px; color:#8070B8; font-weight:600; margin-bottom:2px;">경쟁사 대비</p>
+                            <p style="font-size:16px; font-weight:900; color:#D63F6A; letter-spacing:-0.03em; line-height:1;">5.8<span style="font-size:10px; color:#D63F6A; margin-left:1px;">배 역전</span></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ══════════════════════════════
+                 CASE 03  —  그라디언트 믹스  #8B3FA8
+            ══════════════════════════════ -->
+            <div style="flex:1; display:flex; flex-direction:column; gap:11px; padding-left:26px;">
+
+                <div>
+                    <p style="font-size:10px; font-weight:800; letter-spacing:0.15em; margin-bottom:4px;
+                       background:linear-gradient(90deg,#D63F6A,#5B3FC0); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">CASE 03 &nbsp;|&nbsp; 2025.12</p>
+                    <p style="font-size:14.5px; font-weight:800; letter-spacing:-0.02em; line-height:1.25; color:#1E1E1E;">카카오뱅크 × 편의점 알바 탈출 시뮬레이션</p>
+                    <p style="font-size:11px; font-weight:500; color:#888; margin-top:2px; line-height:1.4;">금융사기 대응 공익 목적 콘텐츠</p>
+                </div>
+
+                <div style="display:flex; flex-direction:column; gap:7px;">
+                    <!-- 불릿 border: 그라디언트 흉내 — 중간색 #8B3FA8 -->
+                    <div style="padding-left:10px; border-left:2px solid #8B3FA8;">
+                        <p style="font-size:10px; font-weight:800; letter-spacing:0.08em; margin-bottom:2px;
+                           background:linear-gradient(90deg,#D63F6A,#5B3FC0); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">Story Gamification</p>
+                        <p style="font-size:11.5px; line-height:1.65; color:#444;">고수익 알바 금융사기 예방 메시지를 스토리 시뮬레이션 게임으로 재구조화, 몰입도 극대화</p>
+                    </div>
+                    <div style="padding-left:10px; border-left:2px solid #8B3FA8;">
+                        <p style="font-size:10px; font-weight:800; letter-spacing:0.08em; margin-bottom:2px;
+                           background:linear-gradient(90deg,#D63F6A,#5B3FC0); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">Format Innovation</p>
+                        <p style="font-size:11.5px; line-height:1.65; color:#444;">기존 심리테스트 포맷을 벗어난 푸망 최초 시뮬레이션 포맷 도입</p>
+                    </div>
+                </div>
+
+                <!-- RESULTS — 그라디언트 믹스 배경 -->
+                <div style="background:linear-gradient(135deg,#FDF0F4 0%,#F0EDF9 100%); border-radius:10px; border:1px solid #DEC8E4; padding:11px 14px; margin-top:auto; flex-shrink:0; height:82px;">
+                    <p style="font-size:9px; font-weight:800; letter-spacing:0.15em; margin-bottom:9px;
+                       background:linear-gradient(90deg,#D63F6A,#5B3FC0); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;">RESULTS</p>
+                    <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; height:36px;">
+                        <div style="padding-right:10px; border-right:1px solid #D8C0E0; display:flex; flex-direction:column; justify-content:center;">
+                            <p style="font-size:9px; color:#9870A8; font-weight:600; margin-bottom:2px;">플레이</p>
+                            <p style="font-size:16px; font-weight:900; color:#1E1E1E; letter-spacing:-0.03em; line-height:1;">4.5<span style="font-size:10px; color:#8B3FA8; margin-left:1px;">만</span></p>
+                        </div>
+                        <div style="padding:0 10px; border-right:1px solid #D8C0E0; display:flex; flex-direction:column; justify-content:center;">
+                            <p style="font-size:9px; color:#9870A8; font-weight:600; margin-bottom:2px;">포맷 혁신</p>
+                            <p style="font-size:13px; font-weight:900; color:#5B3FC0; letter-spacing:-0.02em; line-height:1.2;">푸망 최초<br/>시뮬레이션</p>
+                        </div>
+                        <div style="padding-left:10px; display:flex; flex-direction:column; justify-content:center;">
+                            <p style="font-size:9px; color:#9870A8; font-weight:600; margin-bottom:2px;">의의</p>
+                            <p style="font-size:12px; font-weight:900; color:#D63F6A; letter-spacing:-0.02em; line-height:1.2;">금융 공익<br/>새 레퍼런스</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div><!-- /3컬럼 -->
+
+        <!-- 하단 푸터 -->
+        <div style="height:48px; padding:0 65px; display:flex; align-items:center; justify-content:space-between; border-top:1px solid #EEE; flex-shrink:0; margin-top:14px;">
+            <p style="font-size:11px; color:#BBB; font-weight:600; letter-spacing:0.05em;">PORTFOLIO © 2026</p>
+            <p style="font-size:12px; font-weight:900; color:#1E1E1E;">04 <span style="color:#DDD; margin:0 10px;">/</span> 05</p>
+        </div>
+
+    </div><!-- /메인 -->
+</div>
+
+<a href="#" class="nav-btn nav-prev">← 03</a>
+<a href="#" class="nav-btn nav-next">05 →</a>
+</body>
+</html>
